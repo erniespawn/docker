@@ -19,4 +19,17 @@ Pull any container
 Create a Dockerfile 
 - vim Dockerfile
 
+Build docker image
+- docker build . -t myubuntu
+
+Run the container
+- docker run -it myubuntu
+
+Remove stopped containers
+- docker rmi [IMAGE ID]
+
+Remove images
+- docker images
+- docker rm [REPOSITORY] or docker rm [IMAGE ID] or docker rm [REPOSITORY:TAG]
+
 
