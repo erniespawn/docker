@@ -33,3 +33,9 @@ Remove images
 - docker rm [REPOSITORY] or docker rm [IMAGE ID] or docker rm [REPOSITORY:TAG]
 
 
+How to host website in docker?
+
+https://github.com/docker-library/docs/tree/master/httpd   
+
+
+
