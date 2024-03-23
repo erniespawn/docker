@@ -1,6 +1,21 @@
 # docker
 docker tutorial
 
+
+Debian 12 latest with full privileged and network
+
+cd debian-strongswan-latest
+
+docker build -t docker-debian/strongswan:latest . 
+
+docker run -it --net=bridge --privileged docker-debian/strongswan:5.9.1 
+
+
+
+
+
+
+
 Show current running containers
 - docker ps
 
