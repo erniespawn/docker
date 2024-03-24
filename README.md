@@ -5,18 +5,14 @@ docker tutorial
 
 ```
 How docker with Debian12. 
-```
 
----
-
-
-```bash
 cd debian-strongswan-latest
 docker build -t docker-debian/strongswan:latest . 
 docker run -it --net=bridge --privileged docker-debian/strongswan:latest
-```
----
 
+```
+
+---
 
 
 
