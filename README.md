@@ -1,14 +1,17 @@
 # docker
 docker tutorial
 
+## New docker debian12 with network and full privileged
 
-Debian 12 latest with full privileged and network
+Directory debian-strongswan-latest
 
+```bash
 cd debian-strongswan-latest
-
 docker build -t docker-debian/strongswan:latest . 
+docker run -it --net=bridge --privileged docker-debian/strongswan:latest
+```
+---
 
-docker run -it --net=bridge --privileged docker-debian/strongswan:5.9.1 
 
 
 
